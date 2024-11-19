@@ -1,0 +1,24 @@
+.footerbar p {
+  font-size: 15px;
+  padding: 13px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+}
+.footerbar {
+  background-color: #1e201e;
+  color: #fff;
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+}
+.footerbar a {
+  text-decoration: none;
+  color: white;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.footerbar a:hover {
+  color: aqua;
+}

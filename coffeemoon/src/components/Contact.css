@@ -1,0 +1,71 @@
+/* Contact.css */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #f4f4f4;
+  padding: 0 20px; /* Sayfa kenarlarına biraz boşluk eklemek için */
+}
+
+.contact-content {
+  width: 100%;
+  max-width: 1200px; /* İçeriği geniş ekranda sınırla */
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #333;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; /* Mobile uyumlu olması için */
+  gap: 20px;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.contact-item i {
+  font-size: 2em;
+  color: #1e201e;
+  margin-bottom: 10px;
+}
+
+.contact-description {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact-item p {
+  margin: 0;
+}
+
+.contact-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive ayar */
+@media (max-width: 600px) {
+  .contact-info {
+    flex-direction: column;
+  }
+}
